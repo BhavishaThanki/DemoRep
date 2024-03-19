@@ -1,8 +1,11 @@
 Commands :
 
-git --version (to know current version)
-git init (to initialize Git on that folder)
-git status
-git add 'filename' : to add file into staging environment 
- -> git add --all / git add -A : to add all files in the directory
+1. git --version : to know current version
+2. git init : to initialize Git on that folder
+3. git status (--short) : shows current status (short status flags : ??-Untracked files,
+                                                M-Modified,A-Files to added stage,D-Deleted)
 
+4. git add 'filename' : to add file into staging environment  (STAGE STEP)
+ -> git add --all / git add -A : to add all files in the directory
+5. git commit -m "Add comment" : Commits the changes (savepoint)
+ -> git commit -a -m "Add comment" : To Stage and commit the changes   
