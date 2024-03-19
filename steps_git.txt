@@ -1,0 +1,8 @@
+Commands :
+
+git --version (to know current version)
+git init (to initialize Git on that folder)
+git status
+git add 'filename' : to add file into staging environment 
+ -> git add --all / git add -A : to add all files in the directory
+
